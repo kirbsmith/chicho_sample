@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <style>
+      label{
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        padding: 16px 0 10px 0;
+      }
+
+      input{
+        font-family: "Montserrat", sans-serif;
+        font-size: 28px;
+      }
+
+      select{
+        width: 30%;
+      }
+
+      form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #submit-button{
+        margin: 24px 0 24px 0;
+      }
+    </style>
+    <title>Log In</title>
+  </head>
+  <body>
+    <section class="contact-form">
+      <form id="contact_form">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="first_name" name="fname" placeholder="First Name">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="last_name" name="lname" placeholder="Last Name">
+
+        <input id="submit-button" type="button" value="Submit" onClick="location.href='index.html'">
+
+    </form>
+  </section>
+  </body>
+</html>
